@@ -1,0 +1,66 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Português</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao meu site de aprendizagem de Português!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>O que é o Subjuntivo?</h2>
+            <p>O subjuntivo é um modo verbal usado para expressar desejo, dúvida, ou condição.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Site de Português</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+style.css
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+script.js
+console.log("Bem-vindo ao site de aprendizagem de português!");
